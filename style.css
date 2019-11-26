@@ -64,3 +64,12 @@ h2 {
 	font-size: 30px;
 	color: #000;
 }
+
+.container div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container div li {
+  margin-bottom: 10px;
+}

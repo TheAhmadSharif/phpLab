@@ -21,7 +21,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
 
-     if (preg_match_all('/^[a-zA-Z]{4,20}$/', $password)) {
+     if (preg_match_all('/^[a-zA-Z0-9]{4,20}$/', $password)) {
          $flag = $flag + 1;
         } 
      else {
@@ -103,6 +103,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             
             <div>
                 <input type="submit" class="btn" value="Submit">
+            </div>
+
+            <div>
+                <p>Already have account? <a href="login.php">Login</a></p> 
             </div>
         </form>
 
