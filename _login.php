@@ -4,17 +4,17 @@ if ($host == 'localhost') {
     $servername = "localhost";
     $username = "root";
     $password = "root";
-    $dbname = "Name";
+    $dbname = "TicketSystem";
 }
 else {
-    $servername = "localhost";
-    $username = "brainexb_studentdb";
-    $password = "yru=k!jd+?2K";
-    $dbname = "StudentList";
+	$servername = "localhost";
+    $username = "root";
+    $password = "hello1234.;";
+    $dbname = "Portfolio";
 }
-
-
 $mysqli = new mysqli($servername, $username, $password, $dbname);
 
-
-?>
+if ($mysqli === false)
+{	
+		 die("ERROR: Could not connect. " . $mysqli->connect_error);
+}?>

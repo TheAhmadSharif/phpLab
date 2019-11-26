@@ -1,0 +1,60 @@
+html, body{ 
+  font: 14px sans-serif; 
+  height: 100%;
+  position: relative;
+}
+.container {
+  width: 960px;
+  margin: auto;
+  margin-top: 30px;
+  height: 90%;
+  height: 90vh;
+  position: relative;
+  z-index: 12;
+  top: 0;
+  left: 0;
+}
+
+footer {
+position: absolute;
+z-index: 13;
+bottom: 80px;
+left: 0;
+}
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 400px;
+    outline: 0;
+    border: 1px solid #333;
+
+}
+
+.btn {
+  padding: 20px 10px;
+  background-color: #666;
+  color: #fff;
+  border: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+form {
+    display: table;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.help-block {
+	margin-bottom: 10px;
+	display: block;
+}
+h2 {
+	font-weight: normal;
+}
+.username {
+	text-transform: capitalize;
+	font-size: 30px;
+	color: #000;
+}
