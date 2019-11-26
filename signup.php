@@ -86,7 +86,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body>
     <div class="container">
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-          <h2>Signup</h2>
+
+            <div class="form-title">
+                   Signup
+            </div> <!-- End Form Title -->
+            <div class="help-block"></div>
             <div>
                 <input type="text" name="username" value="<?php echo $username; ?>" placeholder="username">
                 <span class="help-block"><?php echo $username_err; ?></span>

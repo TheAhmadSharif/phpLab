@@ -53,6 +53,12 @@ form {
 h2 {
 	font-weight: normal;
 }
+.form-title {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #333;
+	font-size: 24px;
+	font-weight: bold;
+}
 .username {
 	text-transform: capitalize;
 	font-size: 30px;

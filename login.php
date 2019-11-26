@@ -80,8 +80,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		
 
 		<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-				<h2>Login</h2>
-				<span><?php echo $error_message; ?></span>
+				<div class="form-title">
+					Login
+				</div> <!-- End Form Title -->
+				<span class="help-block"><?php echo $error_message; ?></span>
 				<input type="text" name="username" placeholder="username" value="<?php echo $username; ?>">
 				
 
