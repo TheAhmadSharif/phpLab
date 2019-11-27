@@ -93,9 +93,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	                <input type="submit" class="btn" value="Login">
 	            </div>
 
-		</form>
+	            <div>
+	                <p>Does not have any account? <a href="index.php">Register</a></p> 
+	            </div>
 
-		<?php include 'footer.php'; ?>
+		</form>
 	</div>  <!-- End container -->
+	<?php include 'footer.php'; ?>
 </body>
 </html>
