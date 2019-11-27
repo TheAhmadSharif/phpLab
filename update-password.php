@@ -16,7 +16,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 	width: 760px;
 	min-height: 70%;
 	min-height: 70vh;
-	padding: 10px;
 }	
 footer {
 	width: 760px;

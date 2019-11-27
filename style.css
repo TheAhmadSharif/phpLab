@@ -1,11 +1,31 @@
 html, body{ 
   font: 14px sans-serif; 
-  height: 90%;
+  min-height: 60%;
   position: relative;
   background-color: #5ab050;
+  overflow-x: hidden;
+}
+* {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+
+     -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+
 }
 .container {
-  width: 640px;
+  width: 100%;
+  max-width: 640px;
   margin: auto;
   margin-top: 30px;
   position: relative;
@@ -15,6 +35,7 @@ html, body{
   padding: 20px;
   background-color: #FFF;
   display: flex;
+  overflow-x: hidden;
 }
 
 footer {
@@ -22,8 +43,9 @@ footer {
     z-index: 13;
     bottom: 10px;
     left: 0;
-    padding: 5px 10px;
-    width: 660px;
+    padding: 0;
+    max-width: 640px;
+    width: 100%;
     margin: auto;
     color: #FFF;
     background: #238427;
@@ -33,13 +55,19 @@ footer {
 footer a {
   color: #FFF;
 }
+
+.footer-content {
+  padding: 5px 10px;
+}
 input {
     padding: 10px;
     margin-bottom: 10px;
     display: block;
-    width: 400px;
+    width: 100%;
     outline: 0;
     border: 1px solid #448429;
+    max-width: 280px;
+    min-width: 240px;
 }
 
 .btn {

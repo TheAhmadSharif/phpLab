@@ -50,16 +50,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             echo "<script type='text/javascript'> document.location = 'welcome.php'; </script>";
                 				exit;
                         } else{
-                            $error_message = 'Username or password did not match. Please try again.';
+                            $error_message = 'Username or password did not match.';
                         }
                     }
                 } 
                 else {
-	            	$error_message = 'Username or password did not match. Please try again.';
+	            	$error_message = 'Username or password did not match.';
 	            }
             } 
         	else {
-            	$error_message = 'Username or password did not match. Please try again.';
+            	$error_message = 'Username or password did not match.';
             }
             
         $stmt->close();
