@@ -8,18 +8,22 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Welcome</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 <style type="text/css">
 .container {
-	width: 760px;
+	width: 100%;
+	max-width: 760px;
 	min-height: 70%;
 	min-height: 70vh;
 	padding: 10px;
 }	
 footer {
-	width: 760px;
+	max-width: 760px;
+	width: 100%;
 }
 
 .logout > a, .logout > a:visited  {

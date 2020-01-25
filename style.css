@@ -11,8 +11,13 @@ html, body{
   box-shadow: none;
   box-shadow: none;
   -webkit-box-shadow: none;
+
   -moz-appearance: none;
   -ms-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -21,6 +26,9 @@ html, body{
      -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
   box-sizing:border-box;
+
+  
+
 
 }
 .container {
@@ -68,6 +76,9 @@ input {
     border: 1px solid #448429;
     max-width: 280px;
     min-width: 240px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #448429;
 }
 
 .btn {

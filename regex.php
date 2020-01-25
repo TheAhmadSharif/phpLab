@@ -27,6 +27,38 @@
 	<div class="container">
 
 
+		<table>
+				<tr>
+					<th>Test</th>
+					<th>Validation Result</th>
+				</tr>
+			
+				<?php 
+
+						$namelist = array('Ahmad Sharif', 'sharif Ahmed', 'A', 'abc', '0171182023a', '0171182023666', '01411820236', '010820236', '01703705139', '0');
+
+						$pattern = '/\bAh/';
+
+						foreach ($namelist as $name) {
+
+							if(preg_match_all($pattern, $name)){
+							        echo "<tr><td>".$name."</td>";
+							        echo "<td>"."Match"."</td></tr>";
+							     
+
+							    }else{
+							        echo "<tr><td>".$name."</td>";
+							        echo "<td>"."Does Not Match"."</td></tr>";  
+							    }
+							
+						}
+
+					?>
+
+			</tr>
+		</table>
+
+
 
 		<table>
 				<tr>
